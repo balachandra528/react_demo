@@ -35,3 +35,29 @@
 .item-desc{
     align-self:center;
 }
+
+.card-line{
+    position: relative;
+display: block;
+padding: 10px 15px;
+margin-bottom: -1px;
+background-color: #fff;
+border: 1px solid #ddd;
+text-align: center;
+font-size:15px;
+}
+
+.card-button{
+    background-color: #1fc0a0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 17px;
+    /* margin-left: 10px; */
+    overflow: hidden;
+    padding: 11px 15px !important;
+    text-transform: uppercase;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+    border-radius: 3px;
+}
